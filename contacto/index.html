@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contacto</title>
+<link href="../estilo.css" rel="stylesheet">
+<script type="text/javascript" src="../javascript.js"></script>
+
+</head>
+
+<body>
+<div id="caja">
+<header class="header">
+	<a href="../index.html">
+	<img src="../img/frames_banner.jpg" alt="banner" >
+</a>
+
+</header>
+<nav>
+	<ul>
+    	<li><a href="../index.html">inicio</a></li>
+        <li><a href="../noticias/index.html">noticias</a></li>
+        <li><a href="../estilos/index.html">estilos</a></li>
+        <li><a href="../tutoriales/index.html">tutoriales</a></li>
+        <li><a href="../entrevistas/index.html">entrevistas</a></li>
+        <li><a href="../cortos/index.html">cortos</a></li>
+        <li><a href="../arte/index.html">arte</a></li>
+    </ul>       
+</nav>
+<section>
+	<h1>contacto</h1>
+    <div class="caja_contenido">
+    
+    <div id="contenidoform">
+<form method="post" name="formulario" id="formulario">
+    <p>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" />
+    
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" id="apellido" />
+    </p>
+    <p>	<label for="sexo">Sexo</label>
+    	<label for="masculino">Masculino</label>
+        <input type="radio" name="radio" id="masculino" value="masculino" />
+		<label for="femenino">Femenino</label>
+		<input type="radio" name="radio" id="femenino" value="femenino" />
+     </p>
+   <p>	<label for="estilos">Ingrese su/s estilos de animación favoritos</label>
+   		<label for="tradicional">Tradicional</label>
+   		<input type="checkbox" name="tradicional" id="tradicional" />
+		<label for="digital">Digital</label>
+		<input type="checkbox" name="digital" id="digital" />
+		<label for="3d">3D</label>
+		<input type="checkbox" name="3d" id="3d" />
+        <label for="rotoscopia">Rotoscopia</label>
+		<input type="checkbox" name="rotoscopia" id="rotoscopia" />
+        <label for="vectorial">Vectorial</label>
+		<input type="checkbox" name="vectorial" id="vectorial" />
+        <label for="otro">Otros</label>
+		<input type="checkbox" name="otro" id="otro" />
+    </p><p>
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" />
+     </p>
+     <p> 
+      <label for="comentarios">Comentarios</label>
+      <textarea name="comentarios" id="comentarios" cols="45" rows="5"></textarea>
+    </p>
+    <p>
+      <input type="button" name="enviar" id="enviar" value="Enviar" onclick="validarFormulario()" />
+    
+    <input type="reset" name="borrar" id="borrar" value="Borrar" />
+</form>
+</p>
+</div>
+</div>
+    
+    
+</section>
+<footer>
+	<ul>
+    	<li><a href="index.html">contacto</a></li>
+        <li><a href="../preguntas/index.html">preguntas frecuentes</a></li>
+        <li><a href="../cookies/index.html">cookies</a></li>
+        <li><a href="../alumno/index.html">alumno</a></li>
+        <li><a href="../nosotros/index.html">nosotros</a></li>
+        <li><a href="../politicas/index.html">politicas de privacidad</a></li>
+        <li><a href="../paginas/index.html">paginas amigas</a></li>
+        <li><a href="../terminos/index.html">terminos de servicio</a></li>
+    </ul>
+</footer>
+</div>
+</body>
